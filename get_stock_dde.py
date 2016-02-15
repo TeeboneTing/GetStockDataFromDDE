@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import PyWinDDE
 import datetime
 
@@ -11,7 +12,7 @@ def recTickData(value,item):
 
 
 dde = PyWinDDE.DDEClient("XQKGIAP","Quote")
-
+# 股票/期貨代號,名稱,時間,買進,賣出,成交,單量,總量,高點,低點,開盤
 dde.advise("FIMTX02.TF-ID,Name,Time,Bid,Ask,Price,Volume,TotalVolume,High,Low,Open",callback = recTickData)
 PyWinDDE.WinMSGLoop()
 
