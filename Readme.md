@@ -26,5 +26,9 @@
 4. 自動換月收集小台期貨資訊
 5. 自動排程化，每日開盤前自動開啟程式
 
+### 參考資料：
+- 如果需要瞭解DDE欄位怎麼自己改，可以看[幣圖誌]這一篇
+
 [python DDE library]: <http://pykynix.blogspot.tw/2013/03/ddepython3dde.html>
 [全球理財王]: <http://www.kgieworld.com.tw/service/service_4_4.aspx>
+[幣圖誌]: <http://www.bituzi.com/2013/08/DDE.html>
