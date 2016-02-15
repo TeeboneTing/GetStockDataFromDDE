@@ -7,6 +7,7 @@
 - 凱基[全球理財通]
 - Python 2.7 (Anaconda 2 64bit)
 - 網友 kynix 提供的 [python DDE library]
+
 ### 使用方法：
 1. 開啟 凱基全球理財通
 2. `cmd+R` 開啟windows command line模式，移到程式碼所在位置，輸入 `python get_stock_dde.py`
