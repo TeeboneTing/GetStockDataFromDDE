@@ -1,6 +1,7 @@
 # 用凱基全球理財通擷取即時期貨資訊
-### 更新日期：
+### 更新日誌：
 2016 Feb 15 第一版
+2016 Feb 18 更新：連結DDE sever有誤時會隔五分鐘再連線一次
 
 ### 系統需求(測試環境)：
 - Windows 7 (64 bit)
@@ -10,8 +11,8 @@
 
 ### 使用方法：
 1. 開啟 凱基全球理財通
-2. `cmd+R` 開啟windows command line模式，移到程式碼所在位置，輸入 `python get_stock_dde.py`
-3. 當有資料更新時則會及時顯示在螢幕上，並存入`data\stock_02.csv`當中
+2. 開啟windows command line(命令提示字元)，移到程式碼所在位置，輸入 `python get_stock_dde.py`
+3. 當有資料更新時則會及時顯示在螢幕上，並存入`data\stock_xx.csv`當中
 
 ### 資料欄位：
 - 使用分號(;)做分隔
